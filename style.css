@@ -3,6 +3,7 @@ body {
     background-image: url(./nubes.avif);
     background-size: cover;
     color: antiquewhite;
+    height: 100vh;
   }
   
   div{

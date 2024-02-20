@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./nubes.avif);
+    background-size: cover;
+    color: antiquewhite;
+  }
+  
+  div{
+    margin-top: 10px;
+  }
+
+  
+  .contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #3e80a187;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border-radius: 5px;
+
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6ac862;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s cubic-bezier(0, 0.22, 0.3, 1);
+    margin-top: 10px;
+    
+  }
+  
+  button:hover {
+    transform: translate(2px, -2px);
+    background-color: #ffffff;
+    color: #5cabd2;
+  }
+
+ 
+
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
